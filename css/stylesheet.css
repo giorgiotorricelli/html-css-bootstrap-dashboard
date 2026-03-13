@@ -29,9 +29,15 @@
     width: 50%;
 }
 
-.table-striped th:last-child, 
-.table-striped td:last-child {
+.table-striped th:last-child {
     text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    column-gap: 4px;
 }
 
 .table-striped td:last-child {
@@ -45,6 +51,7 @@
     padding: 0 5px 3px 5px;
     border-radius: 8px;
     color: white;
+    text-wrap: nowrap;
 }
 
 .disponibile {
