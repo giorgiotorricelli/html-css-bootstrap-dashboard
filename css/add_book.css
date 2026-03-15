@@ -1,0 +1,26 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.logo-header {
+    height: 6vh;
+}
+
+.logo-header img {
+    height: 100%;
+}
+
+.my-margin-top {
+    margin-top: 11vh;
+}
+
+.custom-placeholder::placeholder {
+  color: #6c757d;
+  opacity: 0.8;    
+}
